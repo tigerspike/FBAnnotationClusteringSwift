@@ -1,0 +1,367 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4876E35D1FA239FD004AB66D /* FBAnnotationClusteringSwift.h in Headers */ = {isa = PBXBuildFile; fileRef = 4876E35B1FA239FD004AB66D /* FBAnnotationClusteringSwift.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4876E36E1FA23A2D004AB66D /* FBQuadTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4876E3631FA23A2C004AB66D /* FBQuadTree.swift */; };
+		4876E36F1FA23A2D004AB66D /* FBBoundingBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4876E3641FA23A2C004AB66D /* FBBoundingBox.swift */; };
+		4876E3701FA23A2D004AB66D /* FBQuadTreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4876E3651FA23A2C004AB66D /* FBQuadTreeNode.swift */; };
+		4876E3711FA23A2D004AB66D /* FBBoundingBox+MapKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4876E3661FA23A2C004AB66D /* FBBoundingBox+MapKit.swift */; };
+		4876E3721FA23A2D004AB66D /* FBZoomLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4876E3671FA23A2C004AB66D /* FBZoomLevel.swift */; };
+		4876E3731FA23A2D004AB66D /* FBAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4876E3681FA23A2C004AB66D /* FBAnnotation.swift */; };
+		4876E3741FA23A2D004AB66D /* FBAnnotationClusterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4876E3691FA23A2C004AB66D /* FBAnnotationClusterView.swift */; };
+		4876E3751FA23A2D004AB66D /* FBAnnotationCluster.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4876E36A1FA23A2C004AB66D /* FBAnnotationCluster.swift */; };
+		4876E3761FA23A2D004AB66D /* FBAnnotationClusterViewConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4876E36B1FA23A2D004AB66D /* FBAnnotationClusterViewConfiguration.swift */; };
+		4876E3771FA23A2D004AB66D /* FBClusteringManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4876E36C1FA23A2D004AB66D /* FBClusteringManager.swift */; };
+		4876E3781FA23A2D004AB66D /* FBAnnotationClusterTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4876E36D1FA23A2D004AB66D /* FBAnnotationClusterTemplate.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4876E3581FA239FD004AB66D /* FBAnnotationClusteringSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FBAnnotationClusteringSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4876E35B1FA239FD004AB66D /* FBAnnotationClusteringSwift.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBAnnotationClusteringSwift.h; sourceTree = "<group>"; };
+		4876E35C1FA239FD004AB66D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4876E3631FA23A2C004AB66D /* FBQuadTree.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FBQuadTree.swift; path = ../../Pod/Classes/FBQuadTree.swift; sourceTree = "<group>"; };
+		4876E3641FA23A2C004AB66D /* FBBoundingBox.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FBBoundingBox.swift; path = ../../Pod/Classes/FBBoundingBox.swift; sourceTree = "<group>"; };
+		4876E3651FA23A2C004AB66D /* FBQuadTreeNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FBQuadTreeNode.swift; path = ../../Pod/Classes/FBQuadTreeNode.swift; sourceTree = "<group>"; };
+		4876E3661FA23A2C004AB66D /* FBBoundingBox+MapKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "FBBoundingBox+MapKit.swift"; path = "../../Pod/Classes/FBBoundingBox+MapKit.swift"; sourceTree = "<group>"; };
+		4876E3671FA23A2C004AB66D /* FBZoomLevel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FBZoomLevel.swift; path = ../../Pod/Classes/FBZoomLevel.swift; sourceTree = "<group>"; };
+		4876E3681FA23A2C004AB66D /* FBAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FBAnnotation.swift; path = ../../Pod/Classes/FBAnnotation.swift; sourceTree = "<group>"; };
+		4876E3691FA23A2C004AB66D /* FBAnnotationClusterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FBAnnotationClusterView.swift; path = ../../Pod/Classes/FBAnnotationClusterView.swift; sourceTree = "<group>"; };
+		4876E36A1FA23A2C004AB66D /* FBAnnotationCluster.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FBAnnotationCluster.swift; path = ../../Pod/Classes/FBAnnotationCluster.swift; sourceTree = "<group>"; };
+		4876E36B1FA23A2D004AB66D /* FBAnnotationClusterViewConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FBAnnotationClusterViewConfiguration.swift; path = ../../Pod/Classes/FBAnnotationClusterViewConfiguration.swift; sourceTree = "<group>"; };
+		4876E36C1FA23A2D004AB66D /* FBClusteringManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FBClusteringManager.swift; path = ../../Pod/Classes/FBClusteringManager.swift; sourceTree = "<group>"; };
+		4876E36D1FA23A2D004AB66D /* FBAnnotationClusterTemplate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FBAnnotationClusterTemplate.swift; path = ../../Pod/Classes/FBAnnotationClusterTemplate.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4876E3541FA239FD004AB66D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4876E34E1FA239FD004AB66D = {
+			isa = PBXGroup;
+			children = (
+				4876E35A1FA239FD004AB66D /* FBAnnotationClusteringSwift */,
+				4876E3591FA239FD004AB66D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4876E3591FA239FD004AB66D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4876E3581FA239FD004AB66D /* FBAnnotationClusteringSwift.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4876E35A1FA239FD004AB66D /* FBAnnotationClusteringSwift */ = {
+			isa = PBXGroup;
+			children = (
+				4876E35B1FA239FD004AB66D /* FBAnnotationClusteringSwift.h */,
+				4876E3681FA23A2C004AB66D /* FBAnnotation.swift */,
+				4876E36A1FA23A2C004AB66D /* FBAnnotationCluster.swift */,
+				4876E36D1FA23A2D004AB66D /* FBAnnotationClusterTemplate.swift */,
+				4876E3691FA23A2C004AB66D /* FBAnnotationClusterView.swift */,
+				4876E36B1FA23A2D004AB66D /* FBAnnotationClusterViewConfiguration.swift */,
+				4876E3641FA23A2C004AB66D /* FBBoundingBox.swift */,
+				4876E3661FA23A2C004AB66D /* FBBoundingBox+MapKit.swift */,
+				4876E36C1FA23A2D004AB66D /* FBClusteringManager.swift */,
+				4876E3631FA23A2C004AB66D /* FBQuadTree.swift */,
+				4876E3651FA23A2C004AB66D /* FBQuadTreeNode.swift */,
+				4876E3671FA23A2C004AB66D /* FBZoomLevel.swift */,
+				4876E35C1FA239FD004AB66D /* Info.plist */,
+			);
+			path = FBAnnotationClusteringSwift;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4876E3551FA239FD004AB66D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4876E35D1FA239FD004AB66D /* FBAnnotationClusteringSwift.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4876E3571FA239FD004AB66D /* FBAnnotationClusteringSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4876E3601FA239FD004AB66D /* Build configuration list for PBXNativeTarget "FBAnnotationClusteringSwift" */;
+			buildPhases = (
+				4876E3531FA239FD004AB66D /* Sources */,
+				4876E3541FA239FD004AB66D /* Frameworks */,
+				4876E3551FA239FD004AB66D /* Headers */,
+				4876E3561FA239FD004AB66D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FBAnnotationClusteringSwift;
+			productName = FBAnnotationClusteringSwift;
+			productReference = 4876E3581FA239FD004AB66D /* FBAnnotationClusteringSwift.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4876E34F1FA239FD004AB66D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Ant Robot";
+				TargetAttributes = {
+					4876E3571FA239FD004AB66D = {
+						CreatedOnToolsVersion = 9.0.1;
+						LastSwiftMigration = 0900;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 4876E3521FA239FD004AB66D /* Build configuration list for PBXProject "FBAnnotationClusteringSwift" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4876E34E1FA239FD004AB66D;
+			productRefGroup = 4876E3591FA239FD004AB66D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4876E3571FA239FD004AB66D /* FBAnnotationClusteringSwift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4876E3561FA239FD004AB66D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4876E3531FA239FD004AB66D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4876E36E1FA23A2D004AB66D /* FBQuadTree.swift in Sources */,
+				4876E3761FA23A2D004AB66D /* FBAnnotationClusterViewConfiguration.swift in Sources */,
+				4876E3751FA23A2D004AB66D /* FBAnnotationCluster.swift in Sources */,
+				4876E3711FA23A2D004AB66D /* FBBoundingBox+MapKit.swift in Sources */,
+				4876E3731FA23A2D004AB66D /* FBAnnotation.swift in Sources */,
+				4876E3771FA23A2D004AB66D /* FBClusteringManager.swift in Sources */,
+				4876E3741FA23A2D004AB66D /* FBAnnotationClusterView.swift in Sources */,
+				4876E3721FA23A2D004AB66D /* FBZoomLevel.swift in Sources */,
+				4876E36F1FA23A2D004AB66D /* FBBoundingBox.swift in Sources */,
+				4876E3781FA23A2D004AB66D /* FBAnnotationClusterTemplate.swift in Sources */,
+				4876E3701FA23A2D004AB66D /* FBQuadTreeNode.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4876E35E1FA239FD004AB66D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4876E35F1FA239FD004AB66D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4876E3611FA239FD004AB66D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = CBY6RLCRZC;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = FBAnnotationClusteringSwift/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ant-robot.FBAnnotationClusteringSwift";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4876E3621FA239FD004AB66D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = CBY6RLCRZC;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = FBAnnotationClusteringSwift/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ant-robot.FBAnnotationClusteringSwift";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4876E3521FA239FD004AB66D /* Build configuration list for PBXProject "FBAnnotationClusteringSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4876E35E1FA239FD004AB66D /* Debug */,
+				4876E35F1FA239FD004AB66D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4876E3601FA239FD004AB66D /* Build configuration list for PBXNativeTarget "FBAnnotationClusteringSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4876E3611FA239FD004AB66D /* Debug */,
+				4876E3621FA239FD004AB66D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4876E34F1FA239FD004AB66D /* Project object */;
+}
